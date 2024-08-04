@@ -13,9 +13,9 @@ dependencyResolutionManagement {
 boolean isTallyOpenSourceProject = commonProperties.isTallyOpenSourceProject
 
 if (isTallyOpenSourceProject) {
-    rootProject.name = "TallyApp"
+    rootProject.name = "BlueprintAccounting"
 } else {
-    rootProject.name = "ModuleApps"
+    rootProject.name = "BlueprintAccounting"
 }
 
 if (!isTallyOpenSourceProject) {
